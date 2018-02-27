@@ -8,6 +8,6 @@ As stated in About this Manual, the content of this manual naturally is selected
 
 While the very early phases of drug development do not involve work on whole organisms (animals or humans), the late preclinical phase includes animal experiments, mainly in mammals such as mice, rats, dogs, or monkeys before entering the clinical phase where the focus is on trials on humans as outlined in Figure 1.1. Different modeling approaches have been developed to support investigations on different scales [39]. As outlined above, we will focus on systems pharmacology, which can be viewed as a mechanistic approach to study pharmacodynamics and pharmacokinetics as illustrated in Figure 7.1.
 
-![Phases, costs, and biological systems used in drug development](/images/chapter-1/01.png "Phases, costs, and biological systems used in drug development")
+![Phases, costs, and biological systems used in drug development](/osp-docfx/images/chapter-1/01.png "Phases, costs, and biological systems used in drug development")
 
 Figure 1.1. Phases, costs, and biological systems used in drug development (taken from [39]).

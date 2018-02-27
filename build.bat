@@ -1,2 +1,2 @@
-.\docbin\docfx.exe .\docfx_project\docfx.json
-.\docbin\docfx.exe serve docfx_project\_site
+docfx .\docfx_project\docfx.json
+docfx serve docfx_project\_site

@@ -1,4 +1,4 @@
-![alt text](/images/osp_logo.png "Title")
+![alt text](/osp-docfx/images/osp_logo.png "Logo")
 
 # Suite Manual
 *Version 7.0*
