@@ -4,15 +4,24 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/about.md",
       "output": {
         ".html": {
           "relative_path": "articles/about.html",
-          "hash": "g05Q76lxMzT+EXdnUSWErQ=="
+          "hash": "5osZw+PBkxm1Qj7FPt/7uw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-1.html",
-          "hash": "iMP3i28PXfWM7xEeSXZMGg=="
+          "hash": "+utRNXtDaj6sDsXUr8Y7ww=="
         }
       },
       "is_incremental": false,
@@ -33,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-2.html",
-          "hash": "svlidvkeMGjUpS+DPNxkCg=="
+          "hash": "JlFHRM2+o0VRLtoOPKrJAw=="
         }
       },
       "is_incremental": false,
@@ -90,10 +99,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "fb9FlAYbTfl2WSOPeHVlrQ=="
+          "hash": "IT7ShJ3+ftij+2XEJSPNjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -112,7 +121,8 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -127,15 +137,15 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

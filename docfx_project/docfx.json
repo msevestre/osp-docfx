@@ -25,6 +25,10 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_appTitle": "",
+      "_enableSearch": true
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
