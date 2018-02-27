@@ -40,5 +40,53 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "index.md",
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md",
+          "pdf/*"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**",
+          "**/toc.yml",
+          "**/toc.md"
+        ]
+      },
+      {
+        "files": "pdf/toc.yml"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "images/chapter-1/**",
+          "images/chapter-2/**"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**"
+        ]
+      }
+    ],
+    "dest": "_site_pdf"
   }
 }
