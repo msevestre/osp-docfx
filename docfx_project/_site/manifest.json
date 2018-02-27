@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-1.html",
-          "hash": "kS/zgnTeznnYMAYuaHPH0g=="
+          "hash": "aUKVeS5Yu2uMf1M/uiE5eA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-2.html",
-          "hash": "33KqLoXVNeINrxN+p5maDA=="
+          "hash": "B6GCPEB21TSomUmSPzvVEg=="
         }
       },
       "is_incremental": false,
@@ -99,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "aEXdMt5cgicXIHk9Dq4WjQ=="
+          "hash": "ccYy7cAOEml5AXUTVeVfkw=="
         }
       },
       "is_incremental": false,
@@ -131,13 +131,13 @@
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }

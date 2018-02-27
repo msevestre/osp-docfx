@@ -1,4 +1,4 @@
-![alt text](./images/osp_logo.png "Logo")
+![alt text](https://i.imgur.com/WTngZzF.png "Logo")
 
 # Suite Manual
 *Version 7.0*
